@@ -1,0 +1,4133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &154294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 401320}
+  - 33: {fileID: 3319238}
+  - 23: {fileID: 2374262}
+  - 114: {fileID: 11411904}
+  m_Layer: 0
+  m_Name: Paperplane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401320
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2374262
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154294}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 01822f118635644d4808a60ff342c645, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3319238
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154294}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11411904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 157b514b2e5af4607a80615f3a1e9e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldVelocityScale: 0
+  damping: 0
+  squaredSleepVelocity: .0199999996
+  squaredWakeupVelocity: .0599999987
+  minimumWakeTime: 4
+  recalculateBounds: 1
+  simulateWhenInvisible: 0
+  mesh: {fileID: 0}
+  sharedMesh: {fileID: 4300000, guid: 1c0e4e0e96a7f45b99e5586547908612, type: 3}
+  edgeStructure:
+    heFaces:
+    - index: 0
+      area: .000818673929
+      edges: 000000000100000002000000
+    - index: 1
+      area: .000818673929
+      edges: 030000000400000005000000
+    - index: 2
+      area: .000818674045
+      edges: 060000000700000008000000
+    - index: 3
+      area: .000818674045
+      edges: 090000000a0000000b000000
+    - index: 4
+      area: .000818673929
+      edges: 0c0000000d0000000e000000
+    - index: 5
+      area: .000818674045
+      edges: 0f0000001000000011000000
+    - index: 6
+      area: .000818673929
+      edges: 120000001300000014000000
+    - index: 7
+      area: .000818674045
+      edges: 150000001600000017000000
+    - index: 8
+      area: .000491204381
+      edges: 18000000190000001a000000
+    - index: 9
+      area: .000491204439
+      edges: 1b0000001c0000001d000000
+    - index: 10
+      area: .000491204381
+      edges: 1e0000001f00000020000000
+    - index: 11
+      area: .000491204497
+      edges: 210000002200000023000000
+    - index: 12
+      area: .000818674045
+      edges: 240000002500000026000000
+    - index: 13
+      area: .000818674045
+      edges: 270000002800000029000000
+    - index: 14
+      area: .000818674045
+      edges: 2a0000002b0000002c000000
+    - index: 15
+      area: .000818674045
+      edges: 2d0000002e0000002f000000
+    - index: 16
+      area: .000818674045
+      edges: 300000003100000032000000
+    - index: 17
+      area: .000491204439
+      edges: 330000003400000035000000
+    - index: 18
+      area: .000818674045
+      edges: 360000003700000038000000
+    - index: 19
+      area: .000818674045
+      edges: 390000003a0000003b000000
+    - index: 20
+      area: .000818674045
+      edges: 3c0000003d0000003e000000
+    - index: 21
+      area: .000491204439
+      edges: 3f0000004000000041000000
+    - index: 22
+      area: .000491204439
+      edges: 420000004300000044000000
+    - index: 23
+      area: .000491204439
+      edges: 450000004600000047000000
+    - index: 24
+      area: .00251013157
+      edges: 48000000490000004a000000
+    - index: 25
+      area: .00150607899
+      edges: 4b0000004c0000004d000000
+    - index: 26
+      area: .00125506578
+      edges: 4e0000004f00000050000000
+    - index: 27
+      area: .00125506578
+      edges: 510000005200000053000000
+    - index: 28
+      area: .00251013157
+      edges: 540000005500000056000000
+    - index: 29
+      area: 0
+      edges: 570000005800000059000000
+    - index: 30
+      area: .00251013157
+      edges: 5a0000005b0000005c000000
+    - index: 31
+      area: .00125506578
+      edges: 5d0000005e0000005f000000
+    - index: 32
+      area: .00125506578
+      edges: 600000006100000062000000
+    - index: 33
+      area: .00150607899
+      edges: 630000006400000065000000
+    - index: 34
+      area: 0
+      edges: 660000006700000068000000
+    - index: 35
+      area: .00251013157
+      edges: 690000006a0000006b000000
+    heEdges:
+    - index: 0
+      indexOnFace: 0
+      faceIndex: 0
+      nextEdgeIndex: 2
+      pair: 108
+      endVertex: 0
+      startVertex: 1
+    - index: 1
+      indexOnFace: 1
+      faceIndex: 0
+      nextEdgeIndex: 0
+      pair: 109
+      endVertex: 1
+      startVertex: 2
+    - index: 2
+      indexOnFace: 2
+      faceIndex: 0
+      nextEdgeIndex: 1
+      pair: 5
+      endVertex: 2
+      startVertex: 0
+    - index: 3
+      indexOnFace: 0
+      faceIndex: 1
+      nextEdgeIndex: 5
+      pair: 8
+      endVertex: 2
+      startVertex: 3
+    - index: 4
+      indexOnFace: 1
+      faceIndex: 1
+      nextEdgeIndex: 3
+      pair: 14
+      endVertex: 3
+      startVertex: 0
+    - index: 5
+      indexOnFace: 2
+      faceIndex: 1
+      nextEdgeIndex: 4
+      pair: 2
+      endVertex: 0
+      startVertex: 2
+    - index: 6
+      indexOnFace: 0
+      faceIndex: 2
+      nextEdgeIndex: 8
+      pair: 110
+      endVertex: 2
+      startVertex: 4
+    - index: 7
+      indexOnFace: 1
+      faceIndex: 2
+      nextEdgeIndex: 6
+      pair: 9
+      endVertex: 4
+      startVertex: 3
+    - index: 8
+      indexOnFace: 2
+      faceIndex: 2
+      nextEdgeIndex: 7
+      pair: 3
+      endVertex: 3
+      startVertex: 2
+    - index: 9
+      indexOnFace: 0
+      faceIndex: 3
+      nextEdgeIndex: 11
+      pair: 7
+      endVertex: 3
+      startVertex: 4
+    - index: 10
+      indexOnFace: 1
+      faceIndex: 3
+      nextEdgeIndex: 9
+      pair: 82
+      endVertex: 4
+      startVertex: 5
+    - index: 11
+      indexOnFace: 2
+      faceIndex: 3
+      nextEdgeIndex: 10
+      pair: 16
+      endVertex: 5
+      startVertex: 3
+    - index: 12
+      indexOnFace: 0
+      faceIndex: 4
+      nextEdgeIndex: 14
+      pair: 19
+      endVertex: 3
+      startVertex: 6
+    - index: 13
+      indexOnFace: 1
+      faceIndex: 4
+      nextEdgeIndex: 12
+      pair: 111
+      endVertex: 6
+      startVertex: 0
+    - index: 14
+      indexOnFace: 2
+      faceIndex: 4
+      nextEdgeIndex: 13
+      pair: 4
+      endVertex: 0
+      startVertex: 3
+    - index: 15
+      indexOnFace: 0
+      faceIndex: 5
+      nextEdgeIndex: 17
+      pair: 20
+      endVertex: 7
+      startVertex: 3
+    - index: 16
+      indexOnFace: 1
+      faceIndex: 5
+      nextEdgeIndex: 15
+      pair: 11
+      endVertex: 3
+      startVertex: 5
+    - index: 17
+      indexOnFace: 2
+      faceIndex: 5
+      nextEdgeIndex: 16
+      pair: 23
+      endVertex: 5
+      startVertex: 7
+    - index: 18
+      indexOnFace: 0
+      faceIndex: 6
+      nextEdgeIndex: 20
+      pair: 25
+      endVertex: 7
+      startVertex: 6
+    - index: 19
+      indexOnFace: 1
+      faceIndex: 6
+      nextEdgeIndex: 18
+      pair: 12
+      endVertex: 6
+      startVertex: 3
+    - index: 20
+      indexOnFace: 2
+      faceIndex: 6
+      nextEdgeIndex: 19
+      pair: 15
+      endVertex: 3
+      startVertex: 7
+    - index: 21
+      indexOnFace: 0
+      faceIndex: 7
+      nextEdgeIndex: 23
+      pair: 79
+      endVertex: 5
+      startVertex: 8
+    - index: 22
+      indexOnFace: 1
+      faceIndex: 7
+      nextEdgeIndex: 21
+      pair: 30
+      endVertex: 8
+      startVertex: 7
+    - index: 23
+      indexOnFace: 2
+      faceIndex: 7
+      nextEdgeIndex: 22
+      pair: 17
+      endVertex: 7
+      startVertex: 5
+    - index: 24
+      indexOnFace: 0
+      faceIndex: 8
+      nextEdgeIndex: 26
+      pair: 112
+      endVertex: 9
+      startVertex: 6
+    - index: 25
+      indexOnFace: 1
+      faceIndex: 8
+      nextEdgeIndex: 24
+      pair: 18
+      endVertex: 6
+      startVertex: 7
+    - index: 26
+      indexOnFace: 2
+      faceIndex: 8
+      nextEdgeIndex: 25
+      pair: 27
+      endVertex: 7
+      startVertex: 9
+    - index: 27
+      indexOnFace: 0
+      faceIndex: 9
+      nextEdgeIndex: 29
+      pair: 26
+      endVertex: 9
+      startVertex: 7
+    - index: 28
+      indexOnFace: 1
+      faceIndex: 9
+      nextEdgeIndex: 27
+      pair: 32
+      endVertex: 7
+      startVertex: 10
+    - index: 29
+      indexOnFace: 2
+      faceIndex: 9
+      nextEdgeIndex: 28
+      pair: 35
+      endVertex: 10
+      startVertex: 9
+    - index: 30
+      indexOnFace: 0
+      faceIndex: 10
+      nextEdgeIndex: 32
+      pair: 22
+      endVertex: 7
+      startVertex: 8
+    - index: 31
+      indexOnFace: 1
+      faceIndex: 10
+      nextEdgeIndex: 30
+      pair: 89
+      endVertex: 8
+      startVertex: 10
+    - index: 32
+      indexOnFace: 2
+      faceIndex: 10
+      nextEdgeIndex: 31
+      pair: 28
+      endVertex: 10
+      startVertex: 7
+    - index: 33
+      indexOnFace: 0
+      faceIndex: 11
+      nextEdgeIndex: 35
+      pair: 88
+      endVertex: 10
+      startVertex: 11
+    - index: 34
+      indexOnFace: 1
+      faceIndex: 11
+      nextEdgeIndex: 33
+      pair: 113
+      endVertex: 11
+      startVertex: 9
+    - index: 35
+      indexOnFace: 2
+      faceIndex: 11
+      nextEdgeIndex: 34
+      pair: 29
+      endVertex: 9
+      startVertex: 10
+    - index: 36
+      indexOnFace: 0
+      faceIndex: 12
+      nextEdgeIndex: 38
+      pair: 114
+      endVertex: 12
+      startVertex: 13
+    - index: 37
+      indexOnFace: 1
+      faceIndex: 12
+      nextEdgeIndex: 36
+      pair: 115
+      endVertex: 13
+      startVertex: 14
+    - index: 38
+      indexOnFace: 2
+      faceIndex: 12
+      nextEdgeIndex: 37
+      pair: 39
+      endVertex: 14
+      startVertex: 12
+    - index: 39
+      indexOnFace: 0
+      faceIndex: 13
+      nextEdgeIndex: 41
+      pair: 38
+      endVertex: 12
+      startVertex: 14
+    - index: 40
+      indexOnFace: 1
+      faceIndex: 13
+      nextEdgeIndex: 39
+      pair: 47
+      endVertex: 14
+      startVertex: 15
+    - index: 41
+      indexOnFace: 2
+      faceIndex: 13
+      nextEdgeIndex: 40
+      pair: 44
+      endVertex: 15
+      startVertex: 12
+    - index: 42
+      indexOnFace: 0
+      faceIndex: 14
+      nextEdgeIndex: 44
+      pair: 55
+      endVertex: 15
+      startVertex: 16
+    - index: 43
+      indexOnFace: 1
+      faceIndex: 14
+      nextEdgeIndex: 42
+      pair: 116
+      endVertex: 16
+      startVertex: 12
+    - index: 44
+      indexOnFace: 2
+      faceIndex: 14
+      nextEdgeIndex: 43
+      pair: 41
+      endVertex: 12
+      startVertex: 15
+    - index: 45
+      indexOnFace: 0
+      faceIndex: 15
+      nextEdgeIndex: 47
+      pair: 117
+      endVertex: 14
+      startVertex: 17
+    - index: 46
+      indexOnFace: 1
+      faceIndex: 15
+      nextEdgeIndex: 45
+      pair: 48
+      endVertex: 17
+      startVertex: 15
+    - index: 47
+      indexOnFace: 2
+      faceIndex: 15
+      nextEdgeIndex: 46
+      pair: 40
+      endVertex: 15
+      startVertex: 14
+    - index: 48
+      indexOnFace: 0
+      faceIndex: 16
+      nextEdgeIndex: 50
+      pair: 46
+      endVertex: 15
+      startVertex: 17
+    - index: 49
+      indexOnFace: 1
+      faceIndex: 16
+      nextEdgeIndex: 48
+      pair: 51
+      endVertex: 17
+      startVertex: 18
+    - index: 50
+      indexOnFace: 2
+      faceIndex: 16
+      nextEdgeIndex: 49
+      pair: 58
+      endVertex: 18
+      startVertex: 15
+    - index: 51
+      indexOnFace: 0
+      faceIndex: 17
+      nextEdgeIndex: 53
+      pair: 49
+      endVertex: 18
+      startVertex: 17
+    - index: 52
+      indexOnFace: 1
+      faceIndex: 17
+      nextEdgeIndex: 51
+      pair: 118
+      endVertex: 17
+      startVertex: 19
+    - index: 53
+      indexOnFace: 2
+      faceIndex: 17
+      nextEdgeIndex: 52
+      pair: 64
+      endVertex: 19
+      startVertex: 18
+    - index: 54
+      indexOnFace: 0
+      faceIndex: 18
+      nextEdgeIndex: 56
+      pair: 94
+      endVertex: 20
+      startVertex: 16
+    - index: 55
+      indexOnFace: 1
+      faceIndex: 18
+      nextEdgeIndex: 54
+      pair: 42
+      endVertex: 16
+      startVertex: 15
+    - index: 56
+      indexOnFace: 2
+      faceIndex: 18
+      nextEdgeIndex: 55
+      pair: 57
+      endVertex: 15
+      startVertex: 20
+    - index: 57
+      indexOnFace: 0
+      faceIndex: 19
+      nextEdgeIndex: 59
+      pair: 56
+      endVertex: 20
+      startVertex: 15
+    - index: 58
+      indexOnFace: 1
+      faceIndex: 19
+      nextEdgeIndex: 57
+      pair: 50
+      endVertex: 15
+      startVertex: 18
+    - index: 59
+      indexOnFace: 2
+      faceIndex: 19
+      nextEdgeIndex: 58
+      pair: 62
+      endVertex: 18
+      startVertex: 20
+    - index: 60
+      indexOnFace: 0
+      faceIndex: 20
+      nextEdgeIndex: 62
+      pair: 67
+      endVertex: 18
+      startVertex: 21
+    - index: 61
+      indexOnFace: 1
+      faceIndex: 20
+      nextEdgeIndex: 60
+      pair: 97
+      endVertex: 21
+      startVertex: 20
+    - index: 62
+      indexOnFace: 2
+      faceIndex: 20
+      nextEdgeIndex: 61
+      pair: 59
+      endVertex: 20
+      startVertex: 18
+    - index: 63
+      indexOnFace: 0
+      faceIndex: 21
+      nextEdgeIndex: 65
+      pair: 68
+      endVertex: 22
+      startVertex: 18
+    - index: 64
+      indexOnFace: 1
+      faceIndex: 21
+      nextEdgeIndex: 63
+      pair: 53
+      endVertex: 18
+      startVertex: 19
+    - index: 65
+      indexOnFace: 2
+      faceIndex: 21
+      nextEdgeIndex: 64
+      pair: 71
+      endVertex: 19
+      startVertex: 22
+    - index: 66
+      indexOnFace: 0
+      faceIndex: 22
+      nextEdgeIndex: 68
+      pair: 102
+      endVertex: 22
+      startVertex: 21
+    - index: 67
+      indexOnFace: 1
+      faceIndex: 22
+      nextEdgeIndex: 66
+      pair: 60
+      endVertex: 21
+      startVertex: 18
+    - index: 68
+      indexOnFace: 2
+      faceIndex: 22
+      nextEdgeIndex: 67
+      pair: 63
+      endVertex: 18
+      startVertex: 22
+    - index: 69
+      indexOnFace: 0
+      faceIndex: 23
+      nextEdgeIndex: 71
+      pair: 119
+      endVertex: 19
+      startVertex: 23
+    - index: 70
+      indexOnFace: 1
+      faceIndex: 23
+      nextEdgeIndex: 69
+      pair: 103
+      endVertex: 23
+      startVertex: 22
+    - index: 71
+      indexOnFace: 2
+      faceIndex: 23
+      nextEdgeIndex: 70
+      pair: 65
+      endVertex: 22
+      startVertex: 19
+    - index: 72
+      indexOnFace: 0
+      faceIndex: 24
+      nextEdgeIndex: 74
+      pair: 106
+      endVertex: 24
+      startVertex: 25
+    - index: 73
+      indexOnFace: 1
+      faceIndex: 24
+      nextEdgeIndex: 72
+      pair: 120
+      endVertex: 25
+      startVertex: 11
+    - index: 74
+      indexOnFace: 2
+      faceIndex: 24
+      nextEdgeIndex: 73
+      pair: 76
+      endVertex: 11
+      startVertex: 24
+    - index: 75
+      indexOnFace: 0
+      faceIndex: 25
+      nextEdgeIndex: 77
+      pair: 78
+      endVertex: 8
+      startVertex: 24
+    - index: 76
+      indexOnFace: 1
+      faceIndex: 25
+      nextEdgeIndex: 75
+      pair: 74
+      endVertex: 24
+      startVertex: 11
+    - index: 77
+      indexOnFace: 2
+      faceIndex: 25
+      nextEdgeIndex: 76
+      pair: 87
+      endVertex: 11
+      startVertex: 8
+    - index: 78
+      indexOnFace: 0
+      faceIndex: 26
+      nextEdgeIndex: 80
+      pair: 75
+      endVertex: 24
+      startVertex: 8
+    - index: 79
+      indexOnFace: 1
+      faceIndex: 26
+      nextEdgeIndex: 78
+      pair: 21
+      endVertex: 8
+      startVertex: 5
+    - index: 80
+      indexOnFace: 2
+      faceIndex: 26
+      nextEdgeIndex: 79
+      pair: 81
+      endVertex: 5
+      startVertex: 24
+    - index: 81
+      indexOnFace: 0
+      faceIndex: 27
+      nextEdgeIndex: 83
+      pair: 80
+      endVertex: 24
+      startVertex: 5
+    - index: 82
+      indexOnFace: 1
+      faceIndex: 27
+      nextEdgeIndex: 81
+      pair: 10
+      endVertex: 5
+      startVertex: 4
+    - index: 83
+      indexOnFace: 2
+      faceIndex: 27
+      nextEdgeIndex: 82
+      pair: 85
+      endVertex: 4
+      startVertex: 24
+    - index: 84
+      indexOnFace: 0
+      faceIndex: 28
+      nextEdgeIndex: 86
+      pair: 90
+      endVertex: 26
+      startVertex: 24
+    - index: 85
+      indexOnFace: 1
+      faceIndex: 28
+      nextEdgeIndex: 84
+      pair: 83
+      endVertex: 24
+      startVertex: 4
+    - index: 86
+      indexOnFace: 2
+      faceIndex: 28
+      nextEdgeIndex: 85
+      pair: 121
+      endVertex: 4
+      startVertex: 26
+    - index: 87
+      indexOnFace: 0
+      faceIndex: 29
+      nextEdgeIndex: 89
+      pair: 77
+      endVertex: 8
+      startVertex: 11
+    - index: 88
+      indexOnFace: 1
+      faceIndex: 29
+      nextEdgeIndex: 87
+      pair: 33
+      endVertex: 11
+      startVertex: 10
+    - index: 89
+      indexOnFace: 2
+      faceIndex: 29
+      nextEdgeIndex: 88
+      pair: 31
+      endVertex: 10
+      startVertex: 8
+    - index: 90
+      indexOnFace: 0
+      faceIndex: 30
+      nextEdgeIndex: 92
+      pair: 84
+      endVertex: 24
+      startVertex: 26
+    - index: 91
+      indexOnFace: 1
+      faceIndex: 30
+      nextEdgeIndex: 90
+      pair: 122
+      endVertex: 26
+      startVertex: 16
+    - index: 92
+      indexOnFace: 2
+      faceIndex: 30
+      nextEdgeIndex: 91
+      pair: 93
+      endVertex: 16
+      startVertex: 24
+    - index: 93
+      indexOnFace: 0
+      faceIndex: 31
+      nextEdgeIndex: 95
+      pair: 92
+      endVertex: 24
+      startVertex: 16
+    - index: 94
+      indexOnFace: 1
+      faceIndex: 31
+      nextEdgeIndex: 93
+      pair: 54
+      endVertex: 16
+      startVertex: 20
+    - index: 95
+      indexOnFace: 2
+      faceIndex: 31
+      nextEdgeIndex: 94
+      pair: 96
+      endVertex: 20
+      startVertex: 24
+    - index: 96
+      indexOnFace: 0
+      faceIndex: 32
+      nextEdgeIndex: 98
+      pair: 95
+      endVertex: 24
+      startVertex: 20
+    - index: 97
+      indexOnFace: 1
+      faceIndex: 32
+      nextEdgeIndex: 96
+      pair: 61
+      endVertex: 20
+      startVertex: 21
+    - index: 98
+      indexOnFace: 2
+      faceIndex: 32
+      nextEdgeIndex: 97
+      pair: 101
+      endVertex: 21
+      startVertex: 24
+    - index: 99
+      indexOnFace: 0
+      faceIndex: 33
+      nextEdgeIndex: 101
+      pair: 104
+      endVertex: 21
+      startVertex: 23
+    - index: 100
+      indexOnFace: 1
+      faceIndex: 33
+      nextEdgeIndex: 99
+      pair: 107
+      endVertex: 23
+      startVertex: 24
+    - index: 101
+      indexOnFace: 2
+      faceIndex: 33
+      nextEdgeIndex: 100
+      pair: 98
+      endVertex: 24
+      startVertex: 21
+    - index: 102
+      indexOnFace: 0
+      faceIndex: 34
+      nextEdgeIndex: 104
+      pair: 66
+      endVertex: 21
+      startVertex: 22
+    - index: 103
+      indexOnFace: 1
+      faceIndex: 34
+      nextEdgeIndex: 102
+      pair: 70
+      endVertex: 22
+      startVertex: 23
+    - index: 104
+      indexOnFace: 2
+      faceIndex: 34
+      nextEdgeIndex: 103
+      pair: 99
+      endVertex: 23
+      startVertex: 21
+    - index: 105
+      indexOnFace: 0
+      faceIndex: 35
+      nextEdgeIndex: 107
+      pair: 123
+      endVertex: 23
+      startVertex: 25
+    - index: 106
+      indexOnFace: 1
+      faceIndex: 35
+      nextEdgeIndex: 105
+      pair: 72
+      endVertex: 25
+      startVertex: 24
+    - index: 107
+      indexOnFace: 2
+      faceIndex: 35
+      nextEdgeIndex: 106
+      pair: 100
+      endVertex: 24
+      startVertex: 23
+    - index: 108
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 109
+      pair: 0
+      endVertex: 1
+      startVertex: 0
+    - index: 109
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 110
+      pair: 1
+      endVertex: 2
+      startVertex: 1
+    - index: 110
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 121
+      pair: 6
+      endVertex: 4
+      startVertex: 2
+    - index: 111
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 108
+      pair: 13
+      endVertex: 0
+      startVertex: 6
+    - index: 112
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 111
+      pair: 24
+      endVertex: 6
+      startVertex: 9
+    - index: 113
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 112
+      pair: 34
+      endVertex: 9
+      startVertex: 11
+    - index: 114
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 115
+      pair: 36
+      endVertex: 13
+      startVertex: 12
+    - index: 115
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 117
+      pair: 37
+      endVertex: 14
+      startVertex: 13
+    - index: 116
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 114
+      pair: 43
+      endVertex: 12
+      startVertex: 16
+    - index: 117
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 118
+      pair: 45
+      endVertex: 17
+      startVertex: 14
+    - index: 118
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 119
+      pair: 52
+      endVertex: 19
+      startVertex: 17
+    - index: 119
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 123
+      pair: 69
+      endVertex: 23
+      startVertex: 19
+    - index: 120
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 113
+      pair: 73
+      endVertex: 11
+      startVertex: 25
+    - index: 121
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 122
+      pair: 86
+      endVertex: 26
+      startVertex: 4
+    - index: 122
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 116
+      pair: 91
+      endVertex: 16
+      startVertex: 26
+    - index: 123
+      indexOnFace: -1
+      faceIndex: -1
+      nextEdgeIndex: 120
+      pair: 105
+      endVertex: 25
+      startVertex: 23
+    heVertices:
+    - physicalIDs: 00000000
+      index: 0
+      halfEdgeIndex: 108
+    - physicalIDs: 01000000
+      index: 1
+      halfEdgeIndex: 109
+    - physicalIDs: 02000000
+      index: 2
+      halfEdgeIndex: 110
+    - physicalIDs: 03000000
+      index: 3
+      halfEdgeIndex: 19
+    - physicalIDs: 040000001d000000
+      index: 4
+      halfEdgeIndex: 121
+    - physicalIDs: 050000001c000000
+      index: 5
+      halfEdgeIndex: 81
+    - physicalIDs: 06000000
+      index: 6
+      halfEdgeIndex: 111
+    - physicalIDs: 07000000
+      index: 7
+      halfEdgeIndex: 32
+    - physicalIDs: 080000001b000000
+      index: 8
+      halfEdgeIndex: 89
+    - physicalIDs: 09000000
+      index: 9
+      halfEdgeIndex: 112
+    - physicalIDs: 0a0000001f000000
+      index: 10
+      halfEdgeIndex: 88
+    - physicalIDs: 0b0000001a000000
+      index: 11
+      halfEdgeIndex: 113
+    - physicalIDs: 0c000000
+      index: 12
+      halfEdgeIndex: 114
+    - physicalIDs: 0d000000
+      index: 13
+      halfEdgeIndex: 115
+    - physicalIDs: 0e000000
+      index: 14
+      halfEdgeIndex: 117
+    - physicalIDs: 0f000000
+      index: 15
+      halfEdgeIndex: 57
+    - physicalIDs: 1000000022000000
+      index: 16
+      halfEdgeIndex: 116
+    - physicalIDs: 11000000
+      index: 17
+      halfEdgeIndex: 118
+    - physicalIDs: 12000000
+      index: 18
+      halfEdgeIndex: 67
+    - physicalIDs: 13000000
+      index: 19
+      halfEdgeIndex: 119
+    - physicalIDs: 1400000023000000
+      index: 20
+      halfEdgeIndex: 96
+    - physicalIDs: 1500000024000000
+      index: 21
+      halfEdgeIndex: 104
+    - physicalIDs: 1600000026000000
+      index: 22
+      halfEdgeIndex: 102
+    - physicalIDs: 1700000025000000
+      index: 23
+      halfEdgeIndex: 123
+    - physicalIDs: 1800000020000000
+      index: 24
+      halfEdgeIndex: 106
+    - physicalIDs: 1900000027000000
+      index: 25
+      halfEdgeIndex: 120
+    - physicalIDs: 1e00000021000000
+      index: 26
+      halfEdgeIndex: 122
+    _volume: .000283806934
+    _area: .035101369
+    _closed: 0
+    _modified: 0
+  particles:
+  - position: {x: .0699999928, y: .049999997, z: -.049999997}
+    predictedPosition: {x: .0699999928, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 0
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000818673929
+    _radius: .0161428619
+  - position: {x: .0699999928, y: .049999997, z: -.099999994}
+    predictedPosition: {x: .0699999928, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 1
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .00027289131
+    _radius: .00932008587
+  - position: {x: .0372530334, y: .049999997, z: -.099999994}
+    predictedPosition: {x: .0372530334, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 2
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000818673929
+    _radius: .0161428619
+  - position: {x: .0372530334, y: .049999997, z: -.049999997}
+    predictedPosition: {x: .0372530334, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 3
+    _w: 61074.3789
+    _mass: .00999999978
+    _areaContribution: .00163734797
+    _radius: .0228294563
+  - position: {x: .00450607203, y: .049999997, z: -.099999994}
+    predictedPosition: {x: .00450607203, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 4
+    _w: 55529.3828
+    _mass: .00999999978
+    _areaContribution: .00180084852
+    _radius: .0239421781
+  - position: {x: .00450607203, y: .049999997, z: -.049999997}
+    predictedPosition: {x: .00450607203, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 5
+    _w: 60408.9219
+    _mass: .00999999978
+    _areaContribution: .00165538455
+    _radius: .0229548533
+  - position: {x: .0699999928, y: .049999997, z: 0}
+    predictedPosition: {x: .0699999928, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 6
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000709517393
+    _radius: .0150281871
+  - position: {x: .0372530334, y: .049999997, z: 0}
+    predictedPosition: {x: .0372530334, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 7
+    _w: 76342.9688
+    _mass: .00999999978
+    _areaContribution: .00130987843
+    _radius: .0204192866
+  - position: {x: .00450607203, y: .049999997, z: 0}
+    predictedPosition: {x: .00450607203, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 8
+    _w: 73691.5469
+    _mass: .00999999978
+    _areaContribution: .00135700777
+    _radius: .0207833815
+  - position: {x: .0372530334, y: .049999997, z: .0299999993}
+    predictedPosition: {x: .0372530334, y: .049999997, z: .0299999993}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 9
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000491204439
+    _radius: .0125042079
+  - position: {x: .00450607203, y: .049999997, z: .0299999956}
+    predictedPosition: {x: .00450607203, y: .049999997, z: .0299999956}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 10
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000491204439
+    _radius: .0125042079
+  - position: {x: .00450607203, y: .049999997, z: .0599999987}
+    predictedPosition: {x: .00450607203, y: .049999997, z: .0599999987}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 11
+    _w: 66556.9922
+    _mass: .00999999978
+    _areaContribution: .00150247174
+    _radius: .0218689647
+  - position: {x: -.0372530371, y: .049999997, z: -.099999994}
+    predictedPosition: {x: -.0372530371, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 12
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000818674045
+    _radius: .0161428638
+  - position: {x: -.0700000003, y: .049999997, z: -.099999994}
+    predictedPosition: {x: -.0700000003, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 13
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000272891339
+    _radius: .00932008587
+  - position: {x: -.0700000003, y: .049999997, z: -.049999997}
+    predictedPosition: {x: -.0700000003, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 14
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000818674045
+    _radius: .0161428638
+  - position: {x: -.0372530371, y: .049999997, z: -.049999997}
+    predictedPosition: {x: -.0372530371, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 15
+    _w: 61074.3711
+    _mass: .00999999978
+    _areaContribution: .00163734809
+    _radius: .0228294563
+  - position: {x: -.00450607529, y: .049999997, z: -.099999994}
+    predictedPosition: {x: -.00450607529, y: .049999997, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 16
+    _w: 55529.3828
+    _mass: .00999999978
+    _areaContribution: .00180084852
+    _radius: .0239421781
+  - position: {x: -.0700000003, y: .049999997, z: 0}
+    predictedPosition: {x: -.0700000003, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 17
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .00070951751
+    _radius: .015028188
+  - position: {x: -.0372530371, y: .049999997, z: 0}
+    predictedPosition: {x: -.0372530371, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 18
+    _w: 76342.9688
+    _mass: .00999999978
+    _areaContribution: .00130987843
+    _radius: .0204192866
+  - position: {x: -.0372530371, y: .049999997, z: .0299999993}
+    predictedPosition: {x: -.0372530371, y: .049999997, z: .0299999993}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 19
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000491204439
+    _radius: .0125042079
+  - position: {x: -.00450607529, y: .049999997, z: -.049999997}
+    predictedPosition: {x: -.00450607529, y: .049999997, z: -.049999997}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 20
+    _w: 60408.9219
+    _mass: .00999999978
+    _areaContribution: .00165538455
+    _radius: .0229548533
+  - position: {x: -.00450607529, y: .049999997, z: 0}
+    predictedPosition: {x: -.00450607529, y: .049999997, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 21
+    _w: 73691.5469
+    _mass: .00999999978
+    _areaContribution: .00135700777
+    _radius: .0207833815
+  - position: {x: -.00450607529, y: .049999997, z: .0299999993}
+    predictedPosition: {x: -.00450607529, y: .049999997, z: .0299999993}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 22
+    _w: 100000
+    _mass: .00999999978
+    _areaContribution: .000491204439
+    _radius: .0125042079
+  - position: {x: -.00450607529, y: .049999997, z: .0599999987}
+    predictedPosition: {x: -.00450607529, y: .049999997, z: .0599999987}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 23
+    _w: 66557
+    _mass: .00999999978
+    _areaContribution: .00150247163
+    _radius: .0218689628
+  - position: {x: 0, y: 0, z: 0}
+    predictedPosition: {x: 0, y: 0, z: 0}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 24
+    _w: 8299.69824
+    _mass: .0199999996
+    _areaContribution: .00602431549
+    _radius: .0437904
+  - position: {x: 0, y: -2.22044592e-17, z: .099999994}
+    predictedPosition: {x: 0, y: -2.22044592e-17, z: .099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 25
+    _w: 11951.5645
+    _mass: .0500000007
+    _areaContribution: .00167342101
+    _radius: .0230795685
+  - position: {x: 0, y: 2.22044592e-17, z: -.099999994}
+    predictedPosition: {x: 0, y: 2.22044592e-17, z: -.099999994}
+    velocity: {x: 0, y: 0, z: 0}
+    neighbours: 
+    asleep: 0
+    wakeCounter: 1
+    index: 26
+    _w: 59757.8281
+    _mass: .00999999978
+    _areaContribution: .00167342101
+    _radius: .0230795685
+  structuralSprings:
+    elements:
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 1
+      p2: 0
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 2
+      p2: 1
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 0
+      p2: 2
+      restLenght: .0597692467
+      scale: 1
+      tearDistance: .089653872
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 2
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 0
+      p2: 3
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 2
+      p2: 0
+      restLenght: .0597692467
+      scale: 1
+      tearDistance: .089653872
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 4
+      p2: 2
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 4
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 2
+      p2: 3
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 4
+      p2: 3
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 5
+      p2: 4
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 5
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 6
+      p2: 3
+      restLenght: .0597692467
+      scale: 1
+      tearDistance: .089653872
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 0
+      p2: 6
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 0
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 7
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 5
+      p2: 3
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 5
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 6
+      p2: 7
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 3
+      p2: 6
+      restLenght: .0597692467
+      scale: 1
+      tearDistance: .089653872
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 3
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 8
+      p2: 5
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 8
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 5
+      p2: 7
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 6
+      p2: 9
+      restLenght: .0444112979
+      scale: 1
+      tearDistance: .066616945
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 6
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 9
+      p2: 7
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 9
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 10
+      p2: 7
+      restLenght: .0444112979
+      scale: 1
+      tearDistance: .066616945
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 9
+      p2: 10
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 8
+      p2: 7
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 10
+      p2: 8
+      restLenght: .0299999956
+      scale: 1
+      tearDistance: .0449999943
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 7
+      p2: 10
+      restLenght: .0444112979
+      scale: 1
+      tearDistance: .066616945
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 11
+      p2: 10
+      restLenght: .0300000031
+      scale: 1
+      tearDistance: .0450000055
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 9
+      p2: 11
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 10
+      p2: 9
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 13
+      p2: 12
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 14
+      p2: 13
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 12
+      p2: 14
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 14
+      p2: 12
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 14
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 12
+      p2: 15
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 16
+      p2: 15
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 12
+      p2: 16
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 12
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 17
+      p2: 14
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 17
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 14
+      p2: 15
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 17
+      p2: 15
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 17
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 18
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 17
+      p2: 18
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 19
+      p2: 17
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 19
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 16
+      p2: 20
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 16
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 20
+      p2: 15
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 15
+      p2: 20
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 15
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 20
+      p2: 18
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 21
+      p2: 18
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 20
+      p2: 21
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 20
+      restLenght: .0597692505
+      scale: 1
+      tearDistance: .0896538794
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 22
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 19
+      p2: 18
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 22
+      p2: 19
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 21
+      p2: 22
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 18
+      p2: 21
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 22
+      p2: 18
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 23
+      p2: 19
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 22
+      p2: 23
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 19
+      p2: 22
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 25
+      p2: 24
+      restLenght: .099999994
+      scale: 1
+      tearDistance: .149999991
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 11
+      p2: 25
+      restLenght: .064189598
+      scale: 1
+      tearDistance: .0962843969
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 11
+      restLenght: .0782323703
+      scale: 1
+      tearDistance: .117348552
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 8
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 11
+      p2: 24
+      restLenght: .0782323703
+      scale: 1
+      tearDistance: .117348552
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 8
+      p2: 11
+      restLenght: .0599999987
+      scale: 1
+      tearDistance: .0899999961
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 8
+      p2: 24
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 5
+      p2: 8
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 5
+      restLenght: .0708541051
+      scale: 1
+      tearDistance: .106281161
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 5
+      p2: 24
+      restLenght: .0708541051
+      scale: 1
+      tearDistance: .106281161
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 4
+      p2: 5
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 4
+      restLenght: .111894161
+      scale: 1
+      tearDistance: .167841241
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 26
+      restLenght: .099999994
+      scale: 1
+      tearDistance: .149999991
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 4
+      p2: 24
+      restLenght: .111894161
+      scale: 1
+      tearDistance: .167841241
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 26
+      p2: 4
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 11
+      p2: 8
+      restLenght: .0599999987
+      scale: 1
+      tearDistance: .0899999961
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 10
+      p2: 11
+      restLenght: .0300000031
+      scale: 1
+      tearDistance: .0450000055
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 8
+      p2: 10
+      restLenght: .0299999956
+      scale: 1
+      tearDistance: .0449999943
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 26
+      p2: 24
+      restLenght: .099999994
+      scale: 1
+      tearDistance: .149999991
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 16
+      p2: 26
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 16
+      restLenght: .111894161
+      scale: 1
+      tearDistance: .167841241
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 16
+      p2: 24
+      restLenght: .111894161
+      scale: 1
+      tearDistance: .167841241
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 20
+      p2: 16
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 20
+      restLenght: .0708541051
+      scale: 1
+      tearDistance: .106281161
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 20
+      p2: 24
+      restLenght: .0708541051
+      scale: 1
+      tearDistance: .106281161
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 21
+      p2: 20
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 21
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 23
+      p2: 21
+      restLenght: .0599999987
+      scale: 1
+      tearDistance: .0899999961
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 23
+      restLenght: .0782323703
+      scale: 1
+      tearDistance: .117348552
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 21
+      p2: 24
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 22
+      p2: 21
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 23
+      p2: 22
+      restLenght: .0299999993
+      scale: 1
+      tearDistance: .0449999981
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 21
+      p2: 23
+      restLenght: .0599999987
+      scale: 1
+      tearDistance: .0899999961
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 25
+      p2: 23
+      restLenght: .064189598
+      scale: 1
+      tearDistance: .0962843969
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 24
+      p2: 25
+      restLenght: .099999994
+      scale: 1
+      tearDistance: .149999991
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 23
+      p2: 24
+      restLenght: .0782323703
+      scale: 1
+      tearDistance: .117348552
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 0
+      p2: 1
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 1
+      p2: 2
+      restLenght: .0327469595
+      scale: 1
+      tearDistance: .0491204411
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 2
+      p2: 4
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 6
+      p2: 0
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 9
+      p2: 6
+      restLenght: .0444112979
+      scale: 1
+      tearDistance: .066616945
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 11
+      p2: 9
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 12
+      p2: 13
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 13
+      p2: 14
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 16
+      p2: 12
+      restLenght: .0327469632
+      scale: 1
+      tearDistance: .0491204448
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 14
+      p2: 17
+      restLenght: .049999997
+      scale: 1
+      tearDistance: .0749999955
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 17
+      p2: 19
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 19
+      p2: 23
+      restLenght: .0444113016
+      scale: 1
+      tearDistance: .0666169524
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 25
+      p2: 11
+      restLenght: .064189598
+      scale: 1
+      tearDistance: .0962843969
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 4
+      p2: 26
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 26
+      p2: 16
+      restLenght: .0502026342
+      scale: 1
+      tearDistance: .0753039494
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+    - transform: {fileID: 401320}
+      stiffness: 1
+      linearStiffness: 1
+      solverIterations: 4
+      p1: 23
+      p2: 25
+      restLenght: .064189598
+      scale: 1
+      tearDistance: .0962843969
+      compressionStiffness: 1
+      linearCompressionStiffness: 1
+  bendingConstraints:
+    elements:
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 1
+      pIndex2: 6
+      pIndex3: 0
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 2
+      pIndex2: 6
+      pIndex3: 0
+      K: .5
+      restLenght: .0109156519
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 3
+      pIndex3: 0
+      K: .5
+      restLenght: .0218313038
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 6
+      pIndex2: 1
+      pIndex3: 0
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 2
+      pIndex2: 2
+      pIndex3: 1
+      K: .5
+      restLenght: .0218313038
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 0
+      pIndex2: 0
+      pIndex3: 1
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 4
+      pIndex2: 1
+      pIndex3: 2
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 3
+      pIndex3: 2
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 0
+      pIndex2: 4
+      pIndex3: 2
+      K: .5
+      restLenght: .0166666657
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 1
+      pIndex2: 4
+      pIndex3: 2
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 6
+      pIndex2: 4
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 0
+      pIndex2: 5
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 2
+      pIndex2: 7
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 4
+      pIndex2: 6
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 5
+      pIndex2: 0
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 2
+      pIndex3: 3
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 26
+      pIndex2: 2
+      pIndex3: 4
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 2
+      pIndex3: 4
+      K: .5
+      restLenght: .0384383276
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 5
+      pIndex2: 5
+      pIndex3: 4
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 26
+      pIndex3: 4
+      K: .5
+      restLenght: .0253805425
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 2
+      pIndex2: 26
+      pIndex3: 4
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 4
+      pIndex3: 5
+      K: .5
+      restLenght: .0167342108
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 8
+      pIndex2: 4
+      pIndex3: 5
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 4
+      pIndex3: 5
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 24
+      pIndex3: 5
+      K: .5
+      restLenght: .0253805425
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 4
+      pIndex2: 8
+      pIndex3: 5
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 0
+      pIndex2: 9
+      pIndex3: 6
+      K: .5
+      restLenght: .0127904611
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 9
+      pIndex3: 6
+      K: .5
+      restLenght: .0228265245
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 7
+      pIndex3: 6
+      K: .5
+      restLenght: .0218313038
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 9
+      pIndex2: 0
+      pIndex3: 6
+      K: .5
+      restLenght: .0127904611
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 10
+      pIndex2: 6
+      pIndex3: 7
+      K: .5
+      restLenght: .00999999885
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 9
+      pIndex2: 3
+      pIndex3: 7
+      K: .5
+      restLenght: .0066666659
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 6
+      pIndex2: 8
+      pIndex3: 7
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 3
+      pIndex2: 9
+      pIndex3: 7
+      K: .5
+      restLenght: .0066666659
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 5
+      pIndex2: 9
+      pIndex3: 7
+      K: .5
+      restLenght: .0127904629
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 8
+      pIndex2: 6
+      pIndex3: 7
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 10
+      pIndex2: 5
+      pIndex3: 8
+      K: .5
+      restLenght: .00666666729
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 24
+      pIndex3: 8
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 5
+      pIndex2: 10
+      pIndex3: 8
+      K: .5
+      restLenght: .00666666729
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 7
+      pIndex3: 8
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 11
+      pIndex2: 5
+      pIndex3: 8
+      K: .5
+      restLenght: .00333333388
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 6
+      pIndex2: 11
+      pIndex3: 9
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 11
+      pIndex3: 9
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 10
+      pIndex2: 6
+      pIndex3: 9
+      K: .5
+      restLenght: .0100000016
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 11
+      pIndex2: 6
+      pIndex3: 9
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 11
+      pIndex2: 8
+      pIndex3: 10
+      K: .5
+      restLenght: 3.7252903e-09
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 9
+      pIndex2: 8
+      pIndex3: 10
+      K: .5
+      restLenght: .0148037644
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 7
+      pIndex2: 11
+      pIndex3: 10
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 8
+      pIndex2: 11
+      pIndex3: 10
+      K: .5
+      restLenght: 3.7252903e-09
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 9
+      pIndex2: 25
+      pIndex3: 11
+      K: .5
+      restLenght: .0194294937
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 10
+      pIndex2: 25
+      pIndex3: 11
+      K: .5
+      restLenght: .0170629695
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 8
+      pIndex2: 25
+      pIndex3: 11
+      K: .5
+      restLenght: .0180132799
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 24
+      pIndex3: 11
+      K: .5
+      restLenght: .0521549173
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 25
+      pIndex2: 10
+      pIndex3: 11
+      K: .5
+      restLenght: .0170629695
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 13
+      pIndex2: 16
+      pIndex3: 12
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 14
+      pIndex2: 16
+      pIndex3: 12
+      K: .5
+      restLenght: .0166666657
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 15
+      pIndex3: 12
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 16
+      pIndex2: 13
+      pIndex3: 12
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 14
+      pIndex2: 14
+      pIndex3: 13
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 12
+      pIndex2: 12
+      pIndex3: 13
+      K: .5
+      restLenght: .0218313113
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 17
+      pIndex2: 13
+      pIndex3: 14
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 15
+      pIndex3: 14
+      K: .5
+      restLenght: .0218313113
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 12
+      pIndex2: 17
+      pIndex3: 14
+      K: .5
+      restLenght: .0109156556
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 13
+      pIndex2: 17
+      pIndex3: 14
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 20
+      pIndex2: 14
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 16
+      pIndex2: 17
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 12
+      pIndex2: 18
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 14
+      pIndex2: 20
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 17
+      pIndex2: 16
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 12
+      pIndex3: 15
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 12
+      pIndex2: 26
+      pIndex3: 16
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 26
+      pIndex3: 16
+      K: .5
+      restLenght: .0253805425
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 20
+      pIndex2: 20
+      pIndex3: 16
+      K: .5
+      restLenght: .0333333313
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 12
+      pIndex3: 16
+      K: .5
+      restLenght: .0384383276
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 26
+      pIndex2: 12
+      pIndex3: 16
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 19
+      pIndex2: 14
+      pIndex3: 17
+      K: .5
+      restLenght: .0127904648
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 18
+      pIndex3: 17
+      K: .5
+      restLenght: .0218313113
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 19
+      pIndex3: 17
+      K: .5
+      restLenght: .0228265319
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 14
+      pIndex2: 19
+      pIndex3: 17
+      K: .5
+      restLenght: .0127904648
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 21
+      pIndex2: 17
+      pIndex3: 18
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 20
+      pIndex2: 19
+      pIndex3: 18
+      K: .5
+      restLenght: .0127904629
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 19
+      pIndex3: 18
+      K: .5
+      restLenght: .0066666659
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 17
+      pIndex2: 21
+      pIndex3: 18
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 19
+      pIndex2: 15
+      pIndex3: 18
+      K: .5
+      restLenght: .0066666659
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 22
+      pIndex2: 17
+      pIndex3: 18
+      K: .5
+      restLenght: .00999999978
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 23
+      pIndex2: 17
+      pIndex3: 19
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 22
+      pIndex2: 17
+      pIndex3: 19
+      K: .5
+      restLenght: .00999999978
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 23
+      pIndex3: 19
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 17
+      pIndex2: 23
+      pIndex3: 19
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 16
+      pIndex3: 20
+      K: .5
+      restLenght: .0167342108
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 16
+      pIndex2: 21
+      pIndex3: 20
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 15
+      pIndex2: 24
+      pIndex3: 20
+      K: .5
+      restLenght: .0253805425
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 16
+      pIndex3: 20
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 21
+      pIndex2: 16
+      pIndex3: 20
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 23
+      pIndex2: 20
+      pIndex3: 21
+      K: .5
+      restLenght: .00333333388
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 18
+      pIndex3: 21
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 20
+      pIndex2: 23
+      pIndex3: 21
+      K: .5
+      restLenght: .00333333388
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 24
+      pIndex3: 21
+      K: .5
+      restLenght: .0191414244
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 22
+      pIndex2: 20
+      pIndex3: 21
+      K: .5
+      restLenght: .0066666659
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 21
+      pIndex2: 23
+      pIndex3: 22
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 18
+      pIndex2: 23
+      pIndex3: 22
+      K: .5
+      restLenght: .0109156538
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 19
+      pIndex2: 19
+      pIndex3: 22
+      K: .5
+      restLenght: .0218313076
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 23
+      pIndex2: 21
+      pIndex3: 22
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 25
+      pIndex2: 21
+      pIndex3: 23
+      K: .5
+      restLenght: .0180132799
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 24
+      pIndex3: 23
+      K: .5
+      restLenght: .0521549173
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 21
+      pIndex2: 25
+      pIndex3: 23
+      K: .5
+      restLenght: .0180132799
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 22
+      pIndex2: 25
+      pIndex3: 23
+      K: .5
+      restLenght: .0170629695
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 19
+      pIndex2: 25
+      pIndex3: 23
+      K: .5
+      restLenght: .0194294937
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 25
+      pIndex2: 26
+      pIndex3: 24
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 11
+      pIndex2: 26
+      pIndex3: 24
+      K: .5
+      restLenght: .0213965308
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 8
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .0372980535
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 5
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .023618035
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 4
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .0167342108
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 26
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: 0
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 16
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .0167342108
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 20
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .023618035
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 21
+      pIndex2: 25
+      pIndex3: 24
+      K: .5
+      restLenght: .0372980535
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 23
+      pIndex2: 26
+      pIndex3: 24
+      K: .5
+      restLenght: .0213965308
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 11
+      pIndex2: 11
+      pIndex3: 25
+      K: .5
+      restLenght: .0427930616
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 24
+      pIndex3: 25
+      K: .5
+      restLenght: .0666666627
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 23
+      pIndex2: 23
+      pIndex3: 25
+      K: .5
+      restLenght: .0427930616
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 16
+      pIndex2: 24
+      pIndex3: 26
+      K: .5
+      restLenght: .0372980535
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 24
+      pIndex2: 16
+      pIndex3: 26
+      K: .5
+      restLenght: .0372980535
+    - transform: {fileID: 401320}
+      stiffness: .5
+      linearStiffness: .159103572
+      solverIterations: 4
+      pIndex1: 4
+      pIndex2: 24
+      pIndex3: 26
+      K: .5
+      restLenght: .0372980535
+  pins:
+    elements: []
+  pressureConstraint:
+    transform: {fileID: 0}
+    stiffness: 1
+    linearStiffness: 1
+    solverIterations: 4
+    enabled: 0
+    pressure: 1
+  shapeMatchingConstraint:
+    transform: {fileID: 0}
+    stiffness: 1
+    linearStiffness: 1
+    solverIterations: 4
+    enabled: 1
+    invRestMatrix:
+      e00: 2302635.75
+      e01: .148519397
+      e02: .00156958739
+      e03: 0
+      e10: .148519367
+      e11: 3971671.25
+      e12: 715510.062
+      e13: 0
+      e20: .0015695882
+      e21: 715510.125
+      e22: 601970.562
+      e23: 0
+      e30: 0
+      e31: -0
+      e32: 0
+      e33: 1
+    restCM: {x: -1.05335551e-09, y: .0290087052, z: -.00417709537}
+    restRi:
+    - {x: .0699999928, y: .0209912919, z: -.0458229035}
+    - {x: .0699999928, y: .0209912919, z: -.0958229005}
+    - {x: .0372530334, y: .0209912919, z: -.0958229005}
+    - {x: .0372530334, y: .0209912919, z: -.0458229035}
+    - {x: .00450607296, y: .0209912919, z: -.0958229005}
+    - {x: .00450607296, y: .0209912919, z: -.0458229035}
+    - {x: .0699999928, y: .0209912919, z: .00417709537}
+    - {x: .0372530334, y: .0209912919, z: .00417709537}
+    - {x: .00450607296, y: .0209912919, z: .00417709537}
+    - {x: .0372530334, y: .0209912919, z: .0341770947}
+    - {x: .00450607296, y: .0209912919, z: .034177091}
+    - {x: .00450607296, y: .0209912919, z: .0641770959}
+    - {x: -.0372530371, y: .0209912919, z: -.0958229005}
+    - {x: -.0700000003, y: .0209912919, z: -.0958229005}
+    - {x: -.0700000003, y: .0209912919, z: -.0458229035}
+    - {x: -.0372530371, y: .0209912919, z: -.0458229035}
+    - {x: -.00450607436, y: .0209912919, z: -.0958229005}
+    - {x: -.0700000003, y: .0209912919, z: .00417709537}
+    - {x: -.0372530371, y: .0209912919, z: .00417709537}
+    - {x: -.0372530371, y: .0209912919, z: .0341770947}
+    - {x: -.00450607436, y: .0209912919, z: -.0458229035}
+    - {x: -.00450607436, y: .0209912919, z: .00417709537}
+    - {x: -.00450607436, y: .0209912919, z: .0341770947}
+    - {x: -.00450607436, y: .0209912919, z: .0641770959}
+    - {x: 1.05335551e-09, y: -.0290087052, z: .00417709537}
+    - {x: 1.05335551e-09, y: -.0290087052, z: .104177088}
+    - {x: 1.05335551e-09, y: -.0290087052, z: -.0958229005}
+    linearDeformation: 0
+  aerodynamics:
+    enabled: 1
+    wind: {x: 0, y: 0, z: 0}
+    airDensity: 1.22500002
+    dragCoefficient: .0199999996
+    liftCoefficient: .0399999991
+  stretchConstraintsGroup:
+    enabled: 0
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+    stretchingScale: 1
+    stretchingStiffness: 1
+    compressionStiffness: 1
+    tearable: 0
+    tearFactor: 1.5
+  bendConstraintsGroup:
+    enabled: 0
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+    bendingStiffness: .5
+    maxBending: .5
+  selfCollisionConstraintsGroup:
+    enabled: 0
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+  collisionConstraintsGroup:
+    enabled: 1
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+    friction: .5
+    virtualParticles: 0
+    virtualParticleCoordinates: []
+  pinConstraintsGroup:
+    enabled: 1
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+  pressureConstraintsGroup:
+    enabled: 0
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+    pressure: 1
+  shapeMatchingConstraintsGroup:
+    enabled: 1
+    iterations: 4
+    evaluationOrder: 0
+    SORFactor: 1
+    grabShape: 0
+    matchingStiffness: 1
+    linearDeformation: 0
+  rootBone: {fileID: 0}
+  world: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01822f118635644d4808a60ff342c645, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: aerodynamics.liftCoefficient
+      value: .0399999991
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: shapeMatchingConstraintsGroup.linearDeformation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: aerodynamics.dragCoefficient
+      value: .0199999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: shapeMatchingConstraintsGroup.matchingStiffness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: aerodynamics.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: aerodynamics.wind.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: recalculateNormals
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: areaDensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: aerodynamics.airDensity
+      value: 1.22500002
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: shapeMatchingConstraintsGroup.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: pinConstraintsGroup.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: collisionConstraintsGroup.friction
+      value: .5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 154294}
+  m_IsPrefabParent: 1
