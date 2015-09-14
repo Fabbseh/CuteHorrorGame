@@ -1,0 +1,113 @@
+---------------------------------------------------
+SUIMONO - INTERACTIVE WATER SYSTEM for UNITY
+
+Copyright ©2015 Tanuki Digital
+Version 2.1.0a
+---------------------------------------------------
+
+
+----------------------------
+THANK YOU FOR YOUR PURCHASE!
+----------------------------
+Thank you for supporting SUIMONO!
+It's people like you that allow us to build and improve our software! 
+if you have any questions, comments, or requests for new features
+please visit the Tanuki Digital Forums and post your feedback:
+
+http://tanukidigital.com/forum/
+
+
+
+----------------------
+REGISTER YOUR PURCHASE
+----------------------
+Did you purchase Suimono - Interactive Water System on the Unity Asset Store?
+Registering at Tanuki Digital.com gives you immediate access to new downloads, updates, and exclusive content as well as Suimono and Tanuki Digital news and info.  Fill out the registration forum using your Asset Store "OR" Order Number here:
+
+http://www.tanukidigital.com/suimono/index.php?register=1
+
+
+----------------------
+DOCUMENTATION
+----------------------
+Please read the Suimono 2.0 documentation files for more in-depth customization information.
+http://tanukidigital.com/suimono/documentation
+
+
+-------------
+INSTALLATION
+-------------
+I. IMPORT SUIMONO BASE FILES INTO YOUR PROJECT
+
+Go to: "Assets -> Import Package -> Custom Package..." in the Unity Menu. Then select the
+"Suimono_watersystem_v2.x.unitypackage" file.  This will open an import dialog box.
+Click the import button and all the Suimono files will be imported into your project list.
+
+A Note about Demo Content... The Suimono installer file contains a large number of files for the advanced demo scene.  If you don’t need this scene in your project, you can disable importing the demo content by unchecking the SUIMONO - WATER SYSTEM 2/_DEMO folder in the import dialog window before importing.
+
+
+II. ADD THE SUIMONO MODULES TO YOUR SCENE
+
+1) drag the "Suimono_Module" prefab located in the "/PREFABS" folder into your scene list.
+2) If it isn't set already, make sure to set the Suimono_Module's position in the transform settings to 0,0,0
+3) set the 'Unity Version Target' setting on the Suimono_Module object accordingto your Unity setup.
+4) drag the "Suimono_Surface" prefab into your scene list.  This is your water surface.
+5) Select what Surface Type you want the water to be... Flat, 3d Waves, or Infinite Ocean.
+
+That's it for the basic installation!  You can now position “SUIMONO_Surface” anywhere in your scene that you like, and even rename the “Suimono_Surface” object to anything you wish. This object can also be scaled to fit your scene, but please see the scale note below!
+
+More in depth installation and setup instructions, as well as a helpful FAQ can be found in the full documentation PDF, available on our website here: http://tanukidigital.com/suimono/documentation
+
+
+----------------
+GENERAL NOTES
+----------------
+A Note about Scale:
+If you're using the "infinite ocean" setting on the Suimono_Surface object, you should keep the Suimono_Surface scale to (10,1,10).  When you play your scene it will automatically zoom to fit your horizon threshold.  For all other surface objects the X and Z scale can be changed to whatever fits your scene, however the Y-scale should be kept at "1.0".  
+
+A Note on Pink Water:
+If you're getting a pink water plane, this is because the correct shader for your system/setup isn't loading. Make sure to go to the Suimono_Module object in your scene and set the "Unity Version Target" attribute according to your Unity system. 
+
+A Note about Console Errors under DX9:
+If you're running Unity in dx9 mode, you'll likely see console errors appear from time to time relating to "dx11" or "d3d" instructions.  This is happening because Suimono includes dx11 versions of it's shaders, but Unity in dx9 mode doesn't understand some of the code in these shaders.  To fix this go to the Suimono 2/Shaders folder, and remove all shader files that have "dx11" in their name.  This should remove the console errors, and you can always reimport them in the future if you ever need them.
+
+A Note about Presets:
+Saved Preset information is contained in text data files under "SUIMONO - WATER SYSTEM 2 / RESOURCES /".  If you have presets that you’d like to save make sure to backup these files before applying any updates, just to make sure your data isn’t overwritten.  You can then simply replace the new data file with your saved file.
+
+
+----------------------------
+CUSTOMIZATION NOTES
+----------------------------
+Defining your Scene Camera
+Suimono tracks a scene camera in order to determine when to initiate the underwater switch. By default Suimono will track the scene camera object that has it’s object tag set to “MainCamera”. However, you can customize which camera Suimono tracks by changing the “Scene Camera Object” attribute on the Suimono_Module objects settings before running your scene.  If you're game is designed around a 3rd person controller, you'll want to designate your character object as the "Scene Track Object"... otherwise for most first-person games, the scene track object would be the same as the scene camera object.
+
+
+Completely rewritten (and automated) Preset Manager
+The Preset Manager has been completely rewritten to be simple to use and automatic. No more copying and pasting code! You can select a preset simply by clicking on it in the list. The “+NEW” button will create a new preset at the bottom of the list, and will fill this preset with the current settings. You can overwrite settings on a preset by pressing the “+” button next to that preset, and delete a preset entirely by pressing the “-” button. You can also rename a preset by pressing the small round button to the left of the preset name, entering the new name, then pressing OK (or X to cancel). 
+
+
+
+-----------------------------
+RELEASE NOTES - Version 2.1.0a
+-----------------------------
+SPECIAL NOTE:
+- Automatic DX11-->DX9 switching has been disabled because of Unity 5.1 API changes. Make sure to set the appropriate dx9/dx11 level for your project in the Suimono Module.
+
+WHAT'S NEW:
+- 
+
+CHANGES:
+- Removed advanced edge blending, as it interferes in water compositing and specific image effects.
+- Removed PlayerSettings.useDirect3D11 call, since it's been deprecated by Unity.
+
+BUG FIXES:
+- Fixed disappearing water surface issue.
+- Fixed editor directive error on Mac.
+- Can now switch between dx9/dx11 regardless of system settings.
+
+
+
+----------------------------
+CREDITS
+----------------------------
+The Trees, Rocks, and Crate objects included in the advanced demo scene have been adapted from Public Domain assets, created by Nobiax.  Check out his amazing work on the Unity Asset Store!

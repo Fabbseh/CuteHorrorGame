@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: mat2_multi_drop
+  m_Shader: {fileID: 4800000, guid: 7f03e56edcf80e048bf247786b776fec, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 45f18ca0daf336143adef67842a132c6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _HeightMap
+        second:
+          m_Texture: {fileID: 2800000, guid: e3005e64180d7604da4a03db69dd700b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlurRamp
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Ramp2D
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TestHeight1
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _FalloffTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Strength
+        second: 112.199997
+      data:
+        first:
+          name: _Overlay
+        second: .740999997
+      data:
+        first:
+          name: _Brightness
+        second: 1.59399998
+      data:
+        first:
+          name: _RefrStrength
+        second: 0
+      data:
+        first:
+          name: _RefrSpeed
+        second: .5
+      data:
+        first:
+          name: _DepthAmt
+        second: .100000001
+      data:
+        first:
+          name: _BlurSpread
+        second: .00100000005
+      data:
+        first:
+          name: _MasterScale
+        second: 1
+      data:
+        first:
+          name: _UnderReflDist
+        second: 1
+      data:
+        first:
+          name: _underFogStart
+        second: 0
+      data:
+        first:
+          name: _underFogStretch
+        second: 0
+      data:
+        first:
+          name: _AnimSpeed
+        second: 1
+      data:
+        first:
+          name: _suimonoHeight
+        second: 1
+      data:
+        first:
+          name: _transition
+        second: 0
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _DepthColor
+        second: {r: .0935666785, g: .150536463, b: .447767138, a: 1}
+      data:
+        first:
+          name: _DepthColorR
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _DepthColorG
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _DepthColorB
+        second: {r: .25, g: .25, b: .5, a: 1}
+      data:
+        first:
+          name: _DiffuseColor
+        second: {r: .5, g: .5, b: 1, a: 1}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .5, g: .5, b: .5, a: .5}
